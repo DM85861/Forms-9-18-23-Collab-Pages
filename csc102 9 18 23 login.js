@@ -2,18 +2,18 @@ function CheckInput()
 {
   
     var BeginName = document.getElementById("BeginName").value;
-    alert(BeginName);
+    
     
     var endName = document.getElementById("endname").value;
-    alert(endName);
+    
     
     var allName = BeginName + " " + endName;
 
     var len = allName.length;
-    alert (len)
+    
     
      var PassCode = document.getElementById("PassNum").value;
-     alert(PassCode);
+     
     
     if (len <3)
     {
